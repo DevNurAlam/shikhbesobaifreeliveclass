@@ -1,0 +1,111 @@
+.top-header{
+    background: black;
+}
+
+.top-header ul{   
+    list-style: none;        
+    display: flex;       
+    justify-content: space-between;        
+    margin-bottom: 0;       
+    padding: 10px 0;
+}
+
+.top-header ul li{
+        color: white;
+}
+
+.top-header ul li i{
+    margin-right: 5px;
+    color: white;
+}
+.top-header ul li a{
+    color: white;
+}
+.top-header ul .fb{
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+} 
+
+.top-header ul .fb i{
+    color: #fff;
+   margin: 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 20px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:red;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hg{
+    min-height: 80vh;
+}
+
+.banner h1{ 
+    color: #fff;   
+    text-transform: capitalize;    
+    font-size: 45px;
+}
+
+.banner h5{      
+    color: #fff;       
+    text-transform: capitalize;       
+    margin-bottom: 20px;
+}
+
+.btn-custom{
+    background: #f8cd53;
+    border-color: #f8cd53;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-custom:hover{
+    background: #d8bd71;
+    border-color: #d8bd71;
+}
+
+.about_us{
+    margin-top: 70px;
+}
+
+.about_us h1{ 
+    text-transform: capitalize;    
+    color: #424242;
+}
+
+.about_us h5{   
+    text-transform: capitalize;        
+    color: #424242;
+}
+
+.about_us span{
+    height: 5px;
+    width: 50px;
+    background: #424242;
+    display: inline-block;
+}
